@@ -15,6 +15,7 @@ lotus-app/
 │   ├── assets/
 │   └── ...
 └── backend/             # Backend (FastAPI)
+```
 
 ## Technologies Used
 
