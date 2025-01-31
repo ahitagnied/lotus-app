@@ -4,11 +4,15 @@ A full-stack application that transcribes audio using AI technology. Built with 
 
 ## Project Structure
 
+```text
 lotus-app/
 ├── audio-transcriber/    # Frontend (Next.js)
 │   ├── app/
 │   ├── components/
 │   ├── constants/
+│   ├── hooks/
+│   ├── scripts/
+│   ├── assets/
 │   └── ...
 └── backend/             # Backend (FastAPI)
 
