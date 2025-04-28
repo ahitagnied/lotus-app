@@ -1,8 +1,11 @@
-# Lotus Mobile App
+# 🪷 Lotus Mobile App
 
-A full-stack application that transcribes audio using AI technology. Built with Next.js for the frontend and FastAPI for the backend.
+A full-stack app that transcribes audio using AI 🎙️→📝  
+Frontend built with **Next.js** ⚡ | Backend powered by **FastAPI** 🚀
 
-## Project Structure
+---
+
+## 🏗️ Project Structure
 
 ```text
 lotus-app/
@@ -14,58 +17,70 @@ lotus-app/
 │   ├── scripts/
 │   ├── assets/
 │   └── ...
-└── backend/             # Backend (FastAPI)
+└── backend/              # Backend (FastAPI)
 ```
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-### Frontend
-- Next.js
-- TypeScript
-- TailwindCSS
-- React Hooks
+Frontend: <br>
+Next.js • TypeScript • TailwindCSS • React Hooks
 
-### Backend
-- FastAPI (0.104.1)
-- Python-multipart (0.0.6)
-- OpenAI (1.3.0)
-- Uvicorn (0.24.0)
-- Python-dotenv (1.0.0)
+Backend: <br>
+FastAPI (0.104.1) • Python-multipart (0.0.6) • OpenAI (1.3.0) • Uvicorn (0.24.0) • Python-dotenv (1.0.0)
 
-## Getting Started
+## 🚀 Getting Started
 
-### Backend Setup
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
+### Backend Setup: 
 
-3. Create a .env file and add your environment variables:
-   ```bash
-   OPENAI_API_KEY=your_api_key_here
+➡️ Navigate to the backend folder:
+```bash
+cd backend
+```
 
-4. Start the server:
-   ```bash
-   uvicorn main:app --host 0.0.0.0 --port 8000
+➡️ Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+➡️ Create a .env file with your API key:
+
+```bash
+OPENAI_API_KEY=your_api_key_here
+```
+
+➡️ Start the backend server:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
 
 ### Frontend Setup
 
-1. Navigate to the frontend directory:
-   ```bash
-   Navigate to the audio-transcriber directory:
+➡️ Navigate to the frontend folder:
 
-2. Install dependencies and start:
-   ```bash
-   npm install
-   npm run dev
+```bash
+cd audio-transcriber
+```
 
-## Features: 
+➡️ Install Node.js dependencies and start the dev server:
 
-- Audio file upload and processing
-- Real-time transcription using AI
-- Clean and intuitive user interface
-- Cross-platform compatibility
+```bash
+npm install
+npm run dev
+```
 
+## ✨ Features
+
+Upload audio files
+
+Real-time transcription powered by AI
+
+Clean, minimal, and intuitive UI
+
+Cross-platform ready (mobile + desktop)
+
+## 📬 Contributions
+
+Pull requests are welcome! Feel free to open an issue for bugs or feature requests.
 
