@@ -1,86 +1,32 @@
-# 🪷 Lotus Mobile App
+# lotus mobile app
 
-A full-stack app that transcribes audio using AI 🎙️→📝  
-Frontend built with **Next.js** ⚡ | Backend powered by **FastAPI** 🚀
+full-stack audio transcription: next.js frontend and fastapi backend. upload an audio file, get text.
 
----
-
-## 🏗️ Project Structure
-
+## structure
 ```text
 lotus-app/
-├── audio-transcriber/    # Frontend (Next.js)
-│   ├── app/
-│   ├── components/
-│   ├── constants/
-│   ├── hooks/
-│   ├── scripts/
-│   ├── assets/
-│   └── ...
-└── backend/              # Backend (FastAPI)
-```
+├─ audio-transcriber/   # next.js frontend
+└─ backend/             # fastapi backend
+````
 
-## 🛠️ Tech Stack
+## install & run
 
-Frontend: <br>
-Next.js • TypeScript • TailwindCSS • React Hooks
-
-Backend: <br>
-FastAPI (0.104.1) • Python-multipart (0.0.6) • OpenAI (1.3.0) • Uvicorn (0.24.0) • Python-dotenv (1.0.0)
-
-## 🚀 Getting Started
-
-### Backend Setup: 
-
-➡️ Navigate to the backend folder:
 ```bash
+# backend
 cd backend
-```
-
-➡️ Install Python dependencies:
-
-```bash
 pip install -r requirements.txt
-```
-
-➡️ Create a .env file with your API key:
-
-```bash
-OPENAI_API_KEY=your_api_key_here
-```
-
-➡️ Start the backend server:
-
-```bash
+# .env
+echo OPENAI_API_KEY=your_api_key_here > .env
 uvicorn main:app --host 0.0.0.0 --port 8000
 ```
 
-### Frontend Setup
-
-➡️ Navigate to the frontend folder:
-
 ```bash
+# frontend
 cd audio-transcriber
-```
-
-➡️ Install Node.js dependencies and start the dev server:
-
-```bash
 npm install
 npm run dev
 ```
 
-## ✨ Features
+next.js + typescript + tailwind; fastapi + uvicorn; openai sdk; python-dotenv; python-multipart.
 
-Upload audio files
-
-Real-time transcription powered by AI
-
-Clean, minimal, and intuitive UI
-
-Cross-platform ready (mobile + desktop)
-
-## 📬 Contributions
-
-Pull requests are welcome! Feel free to open an issue for bugs or feature requests.
-
+feats: file upload, real-time transcription, simple ui. contributions via prs or issues.
